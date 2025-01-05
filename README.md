@@ -132,21 +132,53 @@ The dataset is a rich source of information about international trade transactio
 * **Further Analysis with UMAP:** Explore the data further using UMAP, leveraging its non-linear properties.
 
 ## Libraries Used
+*   **Data Manipulation:**
+    *   `pandas`: For data manipulation and analysis (DataFrames).
+    *   `numpy`: For numerical operations (arrays, matrices).
 
-* **Core Libraries:** `numpy` (version 1.26.4), `pandas` (version 2.2.0)
-* **Data Visualization:** `matplotlib` (version 3.8.2), `seaborn` (version 0.13.2), `plotly` (version 5.18.0)
-* **Unsupervised Learning:**
-    * `sklearn.cluster` (KMeans, DBSCAN, AgglomerativeClustering) from scikit-learn (version 1.3.2)
-    * `sklearn.decomposition` (PCA) from scikit-learn (version 1.3.2)
-    * `sklearn.preprocessing` (StandardScaler, MinMaxScaler, OrdinalEncoder) from scikit-learn (version 1.3.2)
-    * `sklearn.metrics` from scikit-learn (version 1.3.2)
-    * `umap.umap_` (version 0.5.5)
-* **Dimensionality Reduction:** `sklearn.manifold` (TSNE) from scikit-learn (version 1.3.2)
-* **Supervised Learning:**
-    * `sklearn.model_selection` (train_test_split) from scikit-learn (version 1.3.2)
-    * `sklearn.ensemble` (RandomForestClassifier) from scikit-learn (version 1.3.2)
-* **Other:** `requests` (version 2.31.0), `io`
+*   **Data Preprocessing and Feature Engineering:**
+    *   `sklearn.preprocessing`:
+        *   `MinMaxScaler`: For scaling numerical features.
+        *   `StandardScaler`: For standardizing numerical features.
+        * `LabelEncoder`: For encoding categorical features.
+    *  `sklearn.model_selection`:
+        * `train_test_split`: To split data in train and test.
+    
 
+*   **Unsupervised Machine Learning:**
+    *   `sklearn.cluster`:
+        *   `KMeans`: For K-Means clustering.
+        *   `DBSCAN`: For DBSCAN clustering.
+        * `AgglomerativeClustering`: For agglomerative clustering.
+    *   `sklearn.decomposition`:
+        *   `PCA`: For Principal Component Analysis (dimensionality reduction).
+    * `sklearn.metrics`:
+        * `silhouette_score`: For silhouette score.
+    * `umap`: For UMAP.
+
+*   **Supervised Machine Learning:**
+    *   `sklearn.tree`:
+        *   `DecisionTreeClassifier`: For Decision Tree classification.
+        *   `export_text`: To display Decision Tree rules.
+    * `sklearn.linear_model`:
+        * `LogisticRegression`: For logistic regression.
+    * `sklearn.ensemble`:
+        * `RandomForestClassifier`: For random forest.
+
+*   **Model Evaluation:**
+    *   `sklearn.metrics`:
+        *   `accuracy_score`: To calculate accuracy.
+        *   `classification_report`: To generate a classification report.
+        *   `confusion_matrix`: To generate a confusion matrix.
+
+*   **Data Visualization:**
+    *   `matplotlib.pyplot`: For plotting.
+    *   `seaborn`: For enhanced data visualization.
+
+*   **Other Utilities:**
+    *  `IPython`:
+        * `get_ipython`: To use ipython functions.
+        * `display`: to display results.
 ## License
 
 This project is licensed under the **Apache License 2.0** - see the [LICENSE](LICENSE) file for details.
