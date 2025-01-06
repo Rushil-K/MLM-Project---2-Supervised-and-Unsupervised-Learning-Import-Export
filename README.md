@@ -1,6 +1,6 @@
 **Please View the .ipynb file in the Google Colab Environment as 3D Visualizations might not be visible in the GitHub Repository.**
 
-link: https://colab.research.google.com/drive/10daT2IKQsYrMTunBKC9ELu8NoF9nvBj6#scrollTo=93eea9f8-0242-49ed-8754-23e286d70259
+Project link for faster navigation: https://colab.research.google.com/drive/10daT2IKQsYrMTunBKC9ELu8NoF9nvBj6#scrollTo=93eea9f8-0242-49ed-8754-23e286d70259
 
 # MLM-Project--2-Individual-Supervised-and-Unsupervised-Learning-Import-Export  
 Performed Supervised and Unsupervised learning on the Import/Export Dataset.
